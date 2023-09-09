@@ -1,0 +1,21 @@
+sheet sheet1 -loads the correct sheet
+wipe no/yes -will continue with previous data collected or will refresh the data set. Not useful mid-program, only affects the data upon startup. 
+refresh -will try to refresh if workbook is not open
+check 1 c d change
+
+output value null
+output location null
+output message (hello)
+
+savedata
+
+<success>
+<success_end>
+
+
+<failed>
+<failed_end>
+
+wait 10
+
+

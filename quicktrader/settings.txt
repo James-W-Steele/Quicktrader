@@ -1,0 +1,5 @@
+com:COM4
+program:program.txt
+excel file:C:/Users/James/Desktop/quicktrader/quicktrader/TestBook.xlsx
+cooldown:10
+display message time:8

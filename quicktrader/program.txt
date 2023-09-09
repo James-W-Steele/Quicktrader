@@ -1,0 +1,22 @@
+sheet Sheet1 
+wipe no
+refresh 
+
+check a 2 8 same
+
+output cell_location ( ) cell[x_value,y_value][0,0] ( ready for purchase with ) sheet_change[Sheet1] cell[x,10][10,0] ( dollars)
+output (this should work right?)
+savedata 1
+check 7 a z change
+<success>
+
+sheet Sheet1 
+check a 4 10 change
+<failed>
+
+
+<failed_end>
+sheet Sheet1 
+wait 10
+
+
